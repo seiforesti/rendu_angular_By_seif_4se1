@@ -1,0 +1,44 @@
+/* Container style */
+.container {
+    margin-bottom: 20px;
+  }
+  
+  /* Card style */
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  /* Card image style */
+  .card-img-top {
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover;
+  }
+  
+  /* Card body style */
+  .card-body {
+    padding: 15px;
+  }
+  
+  /* Card title style */
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Card text style */
+  .card-text {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  /* Button style */
+  .btn-primary {
+    margin-right: 10px;
+  }
+  
+  /* Message style */
+  p {
+    font-size: 16px;
+    color: #888;
+  }
+  

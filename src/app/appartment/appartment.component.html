@@ -1,0 +1,19 @@
+
+<h1>List Apartments</h1>
+<div *ngIf="listApartments.length>0"></div>
+
+
+<div *ngFor="let A of listApartments">
+    <div class="card" style="width:400px">
+        
+        <div class="card-body">
+            <h4 class="card-title">{{A.appartNum}}</h4>
+            <p class="card-text">{{A.description}}</p>
+            <a [routerLink]="['/appartment', A.id]" class="btn btn-primary">See Appartment</a>
+        </div>
+    </div>
+</div>
+
+<ng-template #alt>
+    <h2>No Appartments Found</h2>
+</ng-template>
